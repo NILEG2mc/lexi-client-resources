@@ -1,1 +1,417 @@
-
+{
+  "Modules": {
+    "Fly": {
+      "toggled": false,
+      "key": 21,
+      "settings": {
+        "Keybind": 33,
+        "Hold": false,
+        "Speed": 1.0,
+        "Mode": "Vulcan Glide"
+      }
+    },
+    "Sprint": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Mode": "Legit"
+      }
+    },
+    "AutoBlock": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "NoSlowdown (Speed)": false
+      }
+    },
+    "Killaura": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "range": 6.0,
+        "Mode": "Vulcan"
+      }
+    },
+    "Strafe": {
+      "toggled": false,
+      "key": 45,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Mode": "Verus b3901",
+        "Speed": 0.20800000000000002
+      }
+    },
+    "Aimbot": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Range": 3.4,
+        "FOV": 40.0,
+        "Smoothness": 5.0,
+        "Jitter": 0.2,
+        "AutoClick": false,
+        "PlayersOnly": true,
+        "AntiTeam": false
+      }
+    },
+    "Backtrack": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Protocol Delay": 400.0,
+        "Unlock Range": 6.0
+      }
+    },
+    "Backtrack V2": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Delay": 400.0,
+        "Range": 6.0
+      }
+    },
+    "TargetHUD": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "Menu GUI": {
+      "toggled": false,
+      "key": 54,
+      "settings": {
+        "Keybind": 54,
+        "Hold": false,
+        "Mode": "Standard"
+      }
+    },
+    "Scaffold": {
+      "toggled": false,
+      "key": 49,
+      "settings": {
+        "Keybind": 47,
+        "Hold": false,
+        "Mode": "Legit",
+        "ZigZag": false,
+        "SameY": false,
+        "NoSprint": true,
+        "CancelSprint": false,
+        "Reverse Rots": true,
+        "Expand": 0.0,
+        "Timer": 1.0,
+        "Place Delay": 150.0
+      }
+    },
+    "BedFucker": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Range": 4.5
+      }
+    },
+    "ChestStealer": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Delay": 100.0,
+        "Range": 4.0,
+        "Aura": true,
+        "Close": true,
+        "AntiBot": true
+      }
+    },
+    "Chams": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "TargetStrafe": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Radius": 3.0,
+        "Speed": 0.24
+      }
+    },
+    "Disabler": {
+      "toggled": false,
+      "key": 35,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Mode": "Vulcan Water v1"
+      }
+    },
+    "FastPlace": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Mode": "Tick",
+        "CPS": 20.0,
+        "Blocks Only": true,
+        "Randomize": true
+      }
+    },
+    "Visuals": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "ArrayList": true,
+        "ArrayList Background": true,
+        "Theme": "CyanWave",
+        "Theme Red": 74.8,
+        "Theme Green": 232.9,
+        "Theme Blue": 212.5,
+        "Theme Alpha": 120.7,
+        "Target Mode": "Sigma",
+        "Target Red": 100.0,
+        "Target Green": 200.0,
+        "Target Blue": 255.0,
+        "Target Alpha": 150.0,
+        "Custom Capes": true,
+        "Cape Mode": "my-first-cape",
+        "Chat Emojis": true,
+        "Item Physics": true,
+        "Jump Circles": true,
+        "Breadcrumbs": true,
+        "Breadcrumb Mode": "Lines",
+        "Breadcrumbs V2": false,
+        "China Hat": false,
+        "Hat Opacity": 0.5,
+        "Hat Red": 0.0,
+        "Hat Green": 255.0,
+        "Hat Blue": 255.0,
+        "NoHurtCam": true,
+        "Sword Animation": "Exhibition"
+      }
+    },
+    "Flag Detector": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Sensitivity": 0.1,
+        "Notify Delay": 500.0,
+        "Ignore TP": true,
+        "TP Threshold": 5.0,
+        "Auto Disable": true
+      }
+    },
+    "SilentAim": {
+      "toggled": false,
+      "key": 19,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Range": 3.0,
+        "Smooth": 20.0,
+        "GCD Fix": true,
+        "Move Fix": true,
+        "AntiBot": false,
+        "AntiTeam": false
+      }
+    },
+    "Air Jump": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Height": 0.406,
+        "Speed Burst": 0.30266666666666664,
+        "Debug": false,
+        "Mode": "Verus b3901"
+      }
+    },
+    "NoFall": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 49,
+        "Hold": false,
+        "Mode": "Vulcan2.9.7.11 Glide"
+      }
+    },
+    "Timer": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Speed": 2.0
+      }
+    },
+    "Velocity": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "S12 Horizontal": 0.0,
+        "S12 Vertical": 1.0,
+        "Execution Chance": 100.0,
+        "S12 Handler": "Standard",
+        "C0B Sprint Reset": true,
+        "C0B Dispatcher": "Post",
+        "C0B Sequence": "StopStart",
+        "H-Interpolation": 0.8,
+        "V-Interpolation": 1.0,
+        "Interpolation Ticks": 3.0
+      }
+    },
+    "Speed": {
+      "toggled": false,
+      "key": 22,
+      "settings": {
+        "Keybind": 47,
+        "Hold": false,
+        "Height": 0.0,
+        "Speed Burst": 0.5,
+        "Ground Only": true,
+        "Mode": "Verus b3901 AirWalk"
+      }
+    },
+    "GhostDash": {
+      "toggled": false,
+      "key": 34,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Mode": "Glide",
+        "Height": 0.42,
+        "Dash Power": 0.5,
+        "Glide Speed": 0.1
+      }
+    },
+    "ClickTP": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Max Range": 100.0,
+        "Ghost Delay": 1.0,
+        "Ghost Step": 0.5
+      }
+    },
+    "TpAura": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Range": 30.0,
+        "Delay": 300.0
+      }
+    },
+    "LongJump": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 44,
+        "Hold": false,
+        "Boost": 1.5,
+        "Height": 0.42,
+        "Mode": "Verus b3901"
+      }
+    },
+    "Tower": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Mode": "Sigma (Verus b3901)",
+        "Timer Speed": 1.0
+      }
+    },
+    "BridgeHelper": {
+      "toggled": false,
+      "key": 43,
+      "settings": {
+        "Keybind": 0,
+        "Hold": true
+      }
+    },
+    "DiscordRPC": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "Autoclicker": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Min CPS": 8.0,
+        "Max CPS": 12.0,
+        "Jitter": 0.5,
+        "Drop Chance": 0.05
+      }
+    },
+    "LexiRadio": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Song": "yuno-Miles-Family-Disstrack-Pt-1",
+        "Repeat": false,
+        "Auto Play": true,
+        "Volume": -10.0
+      }
+    },
+    "AntiVoid": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Fall Distance": 5.0,
+        "Mode": "Position",
+        "Debug": true
+      }
+    }
+  },
+  "Visuals": {
+    "sbFullX": -1.0,
+    "sbFullY": -1.0,
+    "sbFullScale": 1.0,
+    "sbWinX": 1074.0,
+    "sbWinY": 281.0,
+    "sbWinScale": 1.3999996
+  }
+}
