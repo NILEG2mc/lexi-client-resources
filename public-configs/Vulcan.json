@@ -1,17 +1,20 @@
 {
+  "version": "2.10.10",
   "Modules": {
-    "Fly": {
+    "fly": {
       "toggled": false,
       "key": 21,
       "settings": {
         "Keybind": 33,
         "Hold": false,
         "Speed": 1.0,
-        "Mode": "Vulcan Glide"
+        "Mode": "Vulcan KnockBack",
+        "Debug": true,
+        "ViewBobbing": true
       }
     },
-    "Sprint": {
-      "toggled": true,
+    "sprint": {
+      "toggled": false,
       "key": 0,
       "settings": {
         "Keybind": 0,
@@ -19,36 +22,28 @@
         "Mode": "Legit"
       }
     },
-    "AutoBlock": {
+    "autoblock": {
       "toggled": false,
       "key": 0,
       "settings": {
         "Keybind": 0,
         "Hold": false,
+        "Min CPS": 8.0,
+        "Max CPS": 14.0,
         "NoSlowdown (Speed)": false
       }
     },
-    "Killaura": {
-      "toggled": false,
-      "key": 0,
-      "settings": {
-        "Keybind": 0,
-        "Hold": false,
-        "range": 6.0,
-        "Mode": "Vulcan"
-      }
-    },
-    "Strafe": {
-      "toggled": false,
+    "strafe": {
+      "toggled": true,
       "key": 45,
       "settings": {
         "Keybind": 0,
         "Hold": false,
-        "Mode": "Verus b3901",
+        "Mode": "Vulcan",
         "Speed": 0.20800000000000002
       }
     },
-    "Aimbot": {
+    "aimbot": {
       "toggled": false,
       "key": 0,
       "settings": {
@@ -63,17 +58,18 @@
         "AntiTeam": false
       }
     },
-    "Backtrack": {
+    "backtrack": {
       "toggled": true,
       "key": 0,
       "settings": {
         "Keybind": 0,
         "Hold": false,
-        "Protocol Delay": 400.0,
-        "Unlock Range": 6.0
+        "Delay": 1000.0,
+        "Range": 6.0,
+        "ESP": true
       }
     },
-    "Backtrack V2": {
+    "backtrack v2": {
       "toggled": false,
       "key": 0,
       "settings": {
@@ -83,15 +79,16 @@
         "Range": 6.0
       }
     },
-    "TargetHUD": {
+    "targethud": {
       "toggled": true,
       "key": 0,
       "settings": {
         "Keybind": 0,
-        "Hold": false
+        "Hold": false,
+        "Follow Player": true
       }
     },
-    "Menu GUI": {
+    "menu gui": {
       "toggled": false,
       "key": 54,
       "settings": {
@@ -100,73 +97,97 @@
         "Mode": "Standard"
       }
     },
-    "Scaffold": {
+    "scaffold": {
       "toggled": false,
       "key": 49,
       "settings": {
         "Keybind": 47,
         "Hold": false,
-        "Mode": "Legit",
+        "Mode": "Telly",
         "ZigZag": false,
         "SameY": false,
+        "Sneak": true,
         "NoSprint": true,
-        "CancelSprint": false,
+        "Cancel Sprint": true,
+        "Block ESP": true,
+        "ESP R": 144.90074441687347,
+        "ESP G": 0.0,
+        "ESP B": 0.0,
+        "ESP A": 255.0,
         "Reverse Rots": true,
+        "Smoothness": 1.0,
+        "Max Speed": 45.416873449131515,
         "Expand": 0.0,
         "Timer": 1.0,
-        "Place Delay": 150.0
+        "Place Delay": 150.0,
+        "Move Fix": false,
+        "Fake Block": true,
+        "Rotation Line": false
       }
     },
-    "BedFucker": {
-      "toggled": false,
-      "key": 0,
+    "bedfucker": {
+      "toggled": true,
+      "key": 33,
       "settings": {
         "Keybind": 0,
         "Hold": false,
-        "Range": 4.5
+        "Range": 4.193548387096774,
+        "Smooth": 20.0,
+        "GCD Fix": true,
+        "Surroundings": false,
+        "Tool Check": true,
+        "ESP": true,
+        "Rainbow": false,
+        "Block Animations": true,
+        "Move Fix": true,
+        "Break Fix": true,
+        "Move Fix Mode": "Advanced"
       }
     },
-    "ChestStealer": {
+    "cheststealer": {
       "toggled": false,
-      "key": 0,
+      "key": 44,
       "settings": {
         "Keybind": 0,
         "Hold": false,
-        "Delay": 100.0,
+        "Delay": 0.0,
         "Range": 4.0,
-        "Aura": true,
+        "Aura": false,
         "Close": true,
         "AntiBot": true
       }
     },
-    "Chams": {
-      "toggled": true,
+    "chams": {
+      "toggled": false,
       "key": 0,
       "settings": {
         "Keybind": 0,
         "Hold": false
       }
     },
-    "TargetStrafe": {
+    "targetstrafe": {
       "toggled": false,
       "key": 0,
       "settings": {
         "Keybind": 0,
         "Hold": false,
-        "Radius": 3.0,
-        "Speed": 0.24
+        "Radius": 3.0
       }
     },
-    "Disabler": {
-      "toggled": false,
+    "disabler": {
+      "toggled": true,
       "key": 35,
       "settings": {
         "Keybind": 0,
         "Hold": false,
-        "Mode": "Vulcan Water v1"
+        "Mode": "None",
+        "Karhu Autoclicker": false,
+        "Verus Velocity": false,
+        "Vulcan test": false,
+        "Grim AntiRot": false
       }
     },
-    "FastPlace": {
+    "fastplace": {
       "toggled": true,
       "key": 0,
       "settings": {
@@ -178,42 +199,21 @@
         "Randomize": true
       }
     },
-    "Visuals": {
+    "visuals": {
       "toggled": true,
       "key": 0,
       "settings": {
         "Keybind": 0,
         "Hold": false,
-        "ArrayList": true,
-        "ArrayList Background": true,
         "Theme": "CyanWave",
-        "Theme Red": 74.8,
-        "Theme Green": 232.9,
-        "Theme Blue": 212.5,
-        "Theme Alpha": 120.7,
-        "Target Mode": "Sigma",
-        "Target Red": 100.0,
-        "Target Green": 200.0,
-        "Target Blue": 255.0,
-        "Target Alpha": 150.0,
-        "Custom Capes": true,
-        "Cape Mode": "my-first-cape",
-        "Chat Emojis": true,
-        "Item Physics": true,
-        "Jump Circles": true,
-        "Breadcrumbs": true,
-        "Breadcrumb Mode": "Lines",
-        "Breadcrumbs V2": false,
-        "China Hat": false,
-        "Hat Opacity": 0.5,
-        "Hat Red": 0.0,
-        "Hat Green": 255.0,
-        "Hat Blue": 255.0,
-        "NoHurtCam": true,
-        "Sword Animation": "Exhibition"
+        "Theme Red": 202.4813895781638,
+        "Theme Green": 0.0,
+        "Theme Blue": 0.0,
+        "Theme Alpha": 158.82133995037222,
+        "ShowNametag": true
       }
     },
-    "Flag Detector": {
+    "flag detector": {
       "toggled": true,
       "key": 0,
       "settings": {
@@ -226,21 +226,30 @@
         "Auto Disable": true
       }
     },
-    "SilentAim": {
-      "toggled": false,
+    "killaura": {
+      "toggled": true,
       "key": 19,
       "settings": {
         "Keybind": 0,
         "Hold": false,
-        "Range": 3.0,
-        "Smooth": 20.0,
-        "GCD Fix": true,
+        "Rotation": "Advanced",
+        "Range": 3.099255583126551,
+        "Smooth": 8.07196029776675,
+        "GCD Fix": false,
         "Move Fix": true,
+        "Move Fix Mode": "Advanced",
         "AntiBot": false,
-        "AntiTeam": false
+        "AntiTeam": false,
+        "Eye-Height": true,
+        "Anti Heuristic": false,
+        "Fake Block": true,
+        "Auto-Click": true,
+        "Min CPS": 8.0,
+        "Max CPS": 12.0,
+        "Drop Chance": 0.05
       }
     },
-    "Air Jump": {
+    "air jump": {
       "toggled": false,
       "key": 0,
       "settings": {
@@ -252,26 +261,26 @@
         "Mode": "Verus b3901"
       }
     },
-    "NoFall": {
+    "nofall": {
       "toggled": false,
       "key": 0,
       "settings": {
         "Keybind": 49,
         "Hold": false,
-        "Mode": "Vulcan2.9.7.11 Glide"
+        "Mode": "Vulcan Glide"
       }
     },
-    "Timer": {
+    "timer": {
       "toggled": false,
-      "key": 0,
+      "key": 46,
       "settings": {
         "Keybind": 0,
         "Hold": false,
         "Speed": 2.0
       }
     },
-    "Velocity": {
-      "toggled": true,
+    "velocity": {
+      "toggled": false,
       "key": 0,
       "settings": {
         "Keybind": 0,
@@ -288,7 +297,7 @@
         "Interpolation Ticks": 3.0
       }
     },
-    "Speed": {
+    "speed": {
       "toggled": false,
       "key": 22,
       "settings": {
@@ -297,10 +306,10 @@
         "Height": 0.0,
         "Speed Burst": 0.5,
         "Ground Only": true,
-        "Mode": "Verus b3901 AirWalk"
+        "Mode": "Vulcan Low Hop"
       }
     },
-    "GhostDash": {
+    "ghostdash": {
       "toggled": false,
       "key": 34,
       "settings": {
@@ -312,7 +321,7 @@
         "Glide Speed": 0.1
       }
     },
-    "ClickTP": {
+    "clicktp": {
       "toggled": false,
       "key": 0,
       "settings": {
@@ -323,17 +332,18 @@
         "Ghost Step": 0.5
       }
     },
-    "TpAura": {
+    "tpaura": {
       "toggled": false,
       "key": 0,
       "settings": {
         "Keybind": 0,
         "Hold": false,
         "Range": 30.0,
-        "Delay": 300.0
+        "Delay": 300.0,
+        "Step Size": 1.0161290322580645
       }
     },
-    "LongJump": {
+    "longjump": {
       "toggled": false,
       "key": 0,
       "settings": {
@@ -344,7 +354,7 @@
         "Mode": "Verus b3901"
       }
     },
-    "Tower": {
+    "tower": {
       "toggled": false,
       "key": 0,
       "settings": {
@@ -354,15 +364,15 @@
         "Timer Speed": 1.0
       }
     },
-    "BridgeHelper": {
-      "toggled": false,
-      "key": 43,
+    "legit scaffold": {
+      "toggled": true,
+      "key": 15,
       "settings": {
         "Keybind": 0,
-        "Hold": true
+        "Hold": false
       }
     },
-    "DiscordRPC": {
+    "discordrpc": {
       "toggled": true,
       "key": 0,
       "settings": {
@@ -370,7 +380,7 @@
         "Hold": false
       }
     },
-    "Autoclicker": {
+    "autoclicker": {
       "toggled": true,
       "key": 0,
       "settings": {
@@ -378,24 +388,24 @@
         "Hold": false,
         "Min CPS": 8.0,
         "Max CPS": 12.0,
-        "Jitter": 0.5,
+        "Jitter": 0.0,
         "Drop Chance": 0.05
       }
     },
-    "LexiRadio": {
+    "lexiradio": {
       "toggled": false,
       "key": 0,
       "settings": {
         "Keybind": 0,
         "Hold": false,
-        "Song": "yuno-Miles-Family-Disstrack-Pt-1",
+        "Song": "TURI-IP-IP-IP",
         "Repeat": false,
         "Auto Play": true,
         "Volume": -10.0
       }
     },
-    "AntiVoid": {
-      "toggled": true,
+    "antivoid": {
+      "toggled": false,
       "key": 0,
       "settings": {
         "Keybind": 0,
@@ -404,14 +414,613 @@
         "Mode": "Position",
         "Debug": true
       }
+    },
+    "fakelag": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Delay MS": 200.0
+      }
+    },
+    "autopotion": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Health": 11.07,
+        "Smooth": 11.530000000000001,
+        "GCD Fix": true,
+        "Test Pot": false
+      }
+    },
+    "esp": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Mode": "2D Corners",
+        "Players": true,
+        "Mobs": false,
+        "Animals": false,
+        "Color Mode": "Static",
+        "Red": 0.0,
+        "Green": 255.0,
+        "Blue": 255.0,
+        "Alpha": 150.0,
+        "Line Width": 2.0,
+        "Physics": true
+      }
+    },
+    "animations": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Held Item Animations": true,
+        "Sword Animation": "Slide",
+        "Swing Speed": 0.4161290322580645,
+        "Item X": 0.0,
+        "Item Y": 0.0,
+        "Item Z": 0.0,
+        "Item Size": 1.0
+      }
+    },
+    "chinahat": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Opacity": 1.0,
+        "Hat Red": 129.0818858560794,
+        "Hat Green": 0.0,
+        "Hat Blue": 0.0
+      }
+    },
+    "arraylist": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Background": true,
+        "Side Bars": true,
+        "Bar Behind": true,
+        "Bar Width": 1.0,
+        "Bar Gap": 1.0421836228287842,
+        "Rotation": false,
+        "X Position": 22.332506203473944,
+        "Y Position": 17.3697270471464,
+        "Theme": "CyanWave",
+        "Text Spacing": -0.01240694789081953,
+        "Wave Speed": 150.0,
+        "Wave Color 1 R": 255.0,
+        "Wave Color 1 G": 0.0,
+        "Wave Color 1 B": 0.0,
+        "Wave Color 2 R": 172.74193548387095,
+        "Wave Color 2 G": 0.0,
+        "Wave Color 2 B": 0.0,
+        "3rd Wave": false,
+        "Wave Color 3 R": 255.0,
+        "Wave Color 3 G": 0.0,
+        "Wave Color 3 B": 255.0,
+        "Box Padding": -4.258064516129032,
+        "Box Height": -4.129032258064516,
+        "Exclude render": false,
+        "Default Font": false
+      }
+    },
+    "watermark": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Style": "Minimal"
+      }
+    },
+    "chatemojis": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "dragonwings": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Wing Scale": 1.0,
+        "Wing Red": 255.0,
+        "Wing Green": 255.0,
+        "Wing Blue": 255.0
+      }
+    },
+    "itemphysics": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "jumpcircles": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Min Size": 0.1,
+        "Max Size": 3.0,
+        "Line Width": 1.5,
+        "Fade": true,
+        "Red": 255.0,
+        "Green": 0.0,
+        "Blue": 0.0,
+        "Alpha": 200.0,
+        "Speed": 1.0
+      }
+    },
+    "nohurtcam": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "breadcrumbs": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Mode": "Lines",
+        "Line Width": 1.5,
+        "Sphere Size": 0.15,
+        "Sphere Detail": 8.0,
+        "Red": 255.0,
+        "Green": 0.0,
+        "Blue": 0.0,
+        "Alpha": 125.91811414392059,
+        "Max Points": 150.0
+      }
+    },
+    "customcapes": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Cape Mode": "Lexi"
+      }
+    },
+    "itemoutline": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Width": 1.03,
+        "Red": 198.05210918114145,
+        "Green": 0.0,
+        "Blue": 0.0,
+        "Alpha": 255.0
+      }
+    },
+    "lexiradar": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "norot": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Mode": "Vanilla"
+      }
+    },
+    "bpscounter": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "X": 10.0,
+        "Y": 53.05707196029777,
+        "Size": 0.27196029776674935,
+        "Color": "Accent",
+        "Background": true
+      }
+    },
+    "morekb": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Speed": 0.5,
+        "Vertical": 0.1,
+        "Duration": 3.0,
+        "Direction": "Away from Attacker"
+      }
+    },
+    "anticheat": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "brandspoofer": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Mode": "Vanilla"
+      }
+    },
+    "autotool": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "X Offset": -10.421836228287845,
+        "Y Offset": 200.0
+      }
+    },
+    "pearlhelper": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "debug": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "invmove": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Mode": "Vanilla"
+      }
+    },
+    "backmonkey": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "notifications": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "chatbypass": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "unlimited chat": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "snap tap": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "freelook": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "kb displacement": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Yaw Offset": 45.55831265508685
+      }
+    },
+    "bedplates": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Range": 20.0,
+        "Red": 20.0,
+        "Green": 20.0,
+        "Blue": 20.0
+      }
+    },
+    "femboy mode": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "knockback delay": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Delay Ticks": 5.0
+      }
+    },
+    "noslow": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Mode": "Vulcan"
+      }
+    },
+    "custom inventory": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Custom Stats": false,
+        "Custom Hotbar": true,
+        "Custom EXP Bar": true
+      }
+    },
+    "uwuifier": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Femboy Mode": false
+      }
+    },
+    "model renderer": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Fake Leggings": true,
+        "Fake Chestplate": true,
+        "Fake Boots": true,
+        "Fake Helmet": true
+      }
+    },
+    "autowalk": {
+      "toggled": false,
+      "key": 52,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "AutoSprint": true
+      }
+    },
+    "itemesp": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "ambience": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "SkyRed": 115.79404466501241,
+        "SkyGreen": 0.0,
+        "SkyBlue": 0.0,
+        "SkyAlpha": 220.19851116625313,
+        "TintRed": 120.8560794044665,
+        "TintGreen": 0.0,
+        "TintBlue": 0.0,
+        "TintAlpha": 33.535980148883375
+      }
+    },
+    "aim assist": {
+      "toggled": false,
+      "key": 48,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "autoauth": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "motion blur": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Mode": "V1"
+      }
+    },
+    "lsd": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "hit spam": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Packets": 5.0
+      }
+    },
+    "scoreboard": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Hide Scoreboard": false
+      }
+    },
+    "module toggle sound": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "blink": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "target esp": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Target Mode": "Simple",
+        "Target Red": 224.62779156327542,
+        "Target Green": 34.168734491315135,
+        "Target Blue": 53.15136476426799,
+        "Target Alpha": 150.0
+      }
+    },
+    "regen": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Mode": "Vanilla"
+      }
+    },
+    "pinggraph": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "X": 1091.8114143920595,
+        "Y": 595.5334987593052,
+        "Size": 1.337468982630273,
+        "Glint": true
+      }
+    },
+    "criticals": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Mode": "Packet"
+      }
+    },
+    "retard list": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "session info": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false,
+        "Position X": 10.0,
+        "Position Y": 80.0
+      }
+    },
+    "streamer mode": {
+      "toggled": false,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
+    },
+    "custom nametags": {
+      "toggled": true,
+      "key": 0,
+      "settings": {
+        "Keybind": 0,
+        "Hold": false
+      }
     }
   },
   "Visuals": {
     "sbFullX": -1.0,
     "sbFullY": -1.0,
     "sbFullScale": 1.0,
-    "sbWinX": 1074.0,
-    "sbWinY": 281.0,
-    "sbWinScale": 1.3999996
+    "sbWinX": 5.0,
+    "sbWinY": 267.0,
+    "sbWinScale": 1.2999997
   }
 }
