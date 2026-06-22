@@ -126,7 +126,7 @@
       }
     },
     "bedfucker": {
-      "toggled": true,
+      "toggled": false,
       "key": 33,
       "settings": {
         "Keybind": 0,
@@ -227,7 +227,7 @@
       }
     },
     "killaura": {
-      "toggled": true,
+      "toggled": false,
       "key": 19,
       "settings": {
         "Keybind": 0,
@@ -322,7 +322,7 @@
       }
     },
     "clicktp": {
-      "toggled": true,
+      "toggled": false,
       "key": 12,
       "settings": {
         "Keybind": 0,
@@ -398,7 +398,7 @@
       "settings": {
         "Keybind": 0,
         "Hold": false,
-        "Song": "Top-Speed",
+        "Song": "Yuno-Miles-4-Wheeler",
         "Repeat": false,
         "Auto Play": true,
         "Volume": -22.08
@@ -521,7 +521,7 @@
       "settings": {
         "Keybind": 0,
         "Hold": false,
-        "Style": "Minimal"
+        "Style": "Island"
       }
     },
     "chatemojis": {
@@ -752,7 +752,7 @@
     },
     "freelook": {
       "toggled": false,
-      "key": 184,
+      "key": 0,
       "settings": {
         "Keybind": 0,
         "Hold": false
@@ -855,7 +855,7 @@
       }
     },
     "ambience": {
-      "toggled": false,
+      "toggled": true,
       "key": 0,
       "settings": {
         "Keybind": 0,
@@ -1008,7 +1008,7 @@
       }
     },
     "custom nametags": {
-      "toggled": false,
+      "toggled": true,
       "key": 0,
       "settings": {
         "Keybind": 0,
