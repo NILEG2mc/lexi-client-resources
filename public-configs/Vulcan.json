@@ -34,7 +34,7 @@
       }
     },
     "strafe": {
-      "toggled": true,
+      "toggled": false,
       "key": 45,
       "settings": {
         "Keybind": 0,
@@ -94,7 +94,8 @@
       "settings": {
         "Keybind": 54,
         "Hold": false,
-        "Mode": "Standard"
+        "Mode": "Standard",
+        "Bloom": true
       }
     },
     "scaffold": {
@@ -227,7 +228,7 @@
       }
     },
     "killaura": {
-      "toggled": true,
+      "toggled": false,
       "key": 19,
       "settings": {
         "Keybind": 0,
@@ -365,7 +366,7 @@
       }
     },
     "legit scaffold": {
-      "toggled": true,
+      "toggled": false,
       "key": 15,
       "settings": {
         "Keybind": 0,
@@ -398,7 +399,7 @@
       "settings": {
         "Keybind": 0,
         "Hold": false,
-        "Song": "TURI-IP-IP-IP",
+        "Song": "Yuno-Miles-4-Wheeler",
         "Repeat": false,
         "Auto Play": true,
         "Volume": -10.0
@@ -521,7 +522,8 @@
       "settings": {
         "Keybind": 0,
         "Hold": false,
-        "Style": "Minimal"
+        "Style": "Minimal",
+        "Bloom": false
       }
     },
     "chatemojis": {
@@ -643,7 +645,8 @@
         "Y": 53.05707196029777,
         "Size": 0.27196029776674935,
         "Color": "Accent",
-        "Background": true
+        "Background": true,
+        "Bloom": false
       }
     },
     "morekb": {
@@ -872,7 +875,7 @@
     },
     "aim assist": {
       "toggled": false,
-      "key": 48,
+      "key": 0,
       "settings": {
         "Keybind": 0,
         "Hold": false
@@ -918,7 +921,8 @@
       "settings": {
         "Keybind": 0,
         "Hold": false,
-        "Hide Scoreboard": false
+        "Hide Scoreboard": false,
+        "Custom Scoreboard": true
       }
     },
     "module toggle sound": {
@@ -931,7 +935,7 @@
     },
     "blink": {
       "toggled": false,
-      "key": 0,
+      "key": 48,
       "settings": {
         "Keybind": 0,
         "Hold": false
@@ -965,10 +969,11 @@
       "settings": {
         "Keybind": 0,
         "Hold": false,
-        "X": 1091.8114143920595,
-        "Y": 595.5334987593052,
+        "X": 0.0,
+        "Y": 173.69727047146404,
         "Size": 1.337468982630273,
-        "Glint": true
+        "Glint": true,
+        "Bloom": true
       }
     },
     "criticals": {
@@ -995,7 +1000,8 @@
         "Keybind": 0,
         "Hold": false,
         "Position X": 10.0,
-        "Position Y": 80.0
+        "Position Y": 80.0,
+        "Bloom": false
       }
     },
     "streamer mode": {
