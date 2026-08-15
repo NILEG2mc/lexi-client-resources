@@ -117,31 +117,31 @@
         "ESP A": 255.0,
         "Reverse Rots": true,
         "Smoothness": 1.0,
-        "Max Speed": 45.416873449131515,
+        "Max Speed": 57.853598014888334,
         "Expand": 0.0,
-        "Timer": 1.0,
-        "Place Delay": 150.0,
+        "Timer": 1.1,
+        "Place Delay": 0.0,
         "Move Fix": false,
         "Fake Block": true,
         "Rotation Line": false
       }
     },
     "bedfucker": {
-      "toggled": true,
+      "toggled": false,
       "key": 33,
       "settings": {
         "Keybind": 0,
         "Hold": false,
         "Range": 4.193548387096774,
         "Smooth": 20.0,
-        "GCD Fix": true,
-        "Surroundings": false,
+        "GCD Fix": false,
+        "Surroundings": true,
         "Tool Check": true,
         "ESP": true,
         "Rainbow": false,
         "Block Animations": true,
-        "Move Fix": true,
-        "Break Fix": true,
+        "Move Fix": false,
+        "Break Fix": false,
         "Move Fix Mode": "Advanced"
       }
     },
@@ -281,7 +281,7 @@
       }
     },
     "velocity": {
-      "toggled": false,
+      "toggled": true,
       "key": 0,
       "settings": {
         "Keybind": 0,
@@ -412,7 +412,7 @@
         "Keybind": 0,
         "Hold": false,
         "Fall Distance": 5.0,
-        "Mode": "Position",
+        "Mode": "Vulcan",
         "Debug": true
       }
     },
@@ -490,7 +490,8 @@
         "Keybind": 0,
         "Hold": false,
         "Background": true,
-        "Side Bars": true,
+        "Rounded Background": true,
+        "Side Bars": false,
         "Bar Behind": true,
         "Bar Width": 1.0,
         "Bar Gap": 1.0421836228287842,
@@ -512,7 +513,7 @@
         "Wave Color 3 B": 255.0,
         "Box Padding": -4.258064516129032,
         "Box Height": -4.129032258064516,
-        "Exclude render": false,
+        "Exclude render": true,
         "Default Font": false
       }
     },
@@ -791,7 +792,7 @@
       }
     },
     "knockback delay": {
-      "toggled": true,
+      "toggled": false,
       "key": 0,
       "settings": {
         "Keybind": 0,
@@ -938,7 +939,8 @@
       "key": 48,
       "settings": {
         "Keybind": 0,
-        "Hold": false
+        "Hold": false,
+        "ESP": true
       }
     },
     "target esp": {
