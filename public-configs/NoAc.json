@@ -323,7 +323,7 @@
       }
     },
     "clicktp": {
-      "toggled": true,
+      "toggled": false,
       "key": 12,
       "settings": {
         "Keybind": 0,
@@ -938,7 +938,8 @@
       "key": 48,
       "settings": {
         "Keybind": 0,
-        "Hold": false
+        "Hold": false,
+        "ESP": true
       }
     },
     "target esp": {
