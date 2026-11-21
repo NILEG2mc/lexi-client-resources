@@ -94,7 +94,8 @@
       "settings": {
         "Keybind": 54,
         "Hold": false,
-        "Mode": "Standard"
+        "Mode": "Standard",
+        "Bloom": false
       }
     },
     "scaffold": {
@@ -175,7 +176,7 @@
       }
     },
     "disabler": {
-      "toggled": false,
+      "toggled": true,
       "key": 0,
       "settings": {
         "Keybind": 0,
@@ -214,7 +215,7 @@
       }
     },
     "flag detector": {
-      "toggled": false,
+      "toggled": true,
       "key": 0,
       "settings": {
         "Keybind": 0,
@@ -365,7 +366,7 @@
       }
     },
     "legit scaffold": {
-      "toggled": false,
+      "toggled": true,
       "key": 15,
       "settings": {
         "Keybind": 0,
@@ -488,31 +489,32 @@
       "settings": {
         "Keybind": 0,
         "Hold": false,
-        "Background": false,
+        "Background": true,
+        "Rounded Background": true,
         "Side Bars": false,
         "Bar Behind": false,
         "Bar Width": 1.0,
-        "Bar Gap": 2.0,
+        "Bar Gap": 0.0,
         "Rotation": false,
         "X Position": 0.0,
-        "Y Position": 2.0,
+        "Y Position": 4.962779156327543,
         "Theme": "CyanWave",
-        "Text Spacing": 0.0,
-        "Wave Speed": 150.0,
+        "Text Spacing": 1.6625310173697265,
+        "Wave Speed": 299.0074441687345,
         "Wave Color 1 R": 0.0,
-        "Wave Color 1 G": 255.0,
+        "Wave Color 1 G": 0.0,
         "Wave Color 1 B": 255.0,
         "Wave Color 2 R": 0.0,
-        "Wave Color 2 G": 68.0,
+        "Wave Color 2 G": 0.0,
         "Wave Color 2 B": 255.0,
         "3rd Wave": false,
-        "Wave Color 3 R": 255.0,
+        "Wave Color 3 R": 0.0,
         "Wave Color 3 G": 0.0,
-        "Wave Color 3 B": 255.0,
-        "Box Padding": 6.0,
-        "Box Height": 2.0,
+        "Wave Color 3 B": 0.0,
+        "Box Padding": 5.29032258064516,
+        "Box Height": 0.45161290322580694,
         "Exclude render": true,
-        "Default Font": true
+        "Default Font": false
       }
     },
     "watermark": {
@@ -521,11 +523,12 @@
       "settings": {
         "Keybind": 0,
         "Hold": false,
-        "Style": "Minimal"
+        "Style": "Minimal",
+        "Bloom": false
       }
     },
     "chatemojis": {
-      "toggled": false,
+      "toggled": true,
       "key": 0,
       "settings": {
         "Keybind": 0,
@@ -570,7 +573,7 @@
       }
     },
     "nohurtcam": {
-      "toggled": false,
+      "toggled": true,
       "key": 0,
       "settings": {
         "Keybind": 0,
@@ -595,7 +598,7 @@
       }
     },
     "customcapes": {
-      "toggled": false,
+      "toggled": true,
       "key": 0,
       "settings": {
         "Keybind": 0,
@@ -643,7 +646,8 @@
         "Y": 53.05707196029777,
         "Size": 0.27196029776674935,
         "Color": "Accent",
-        "Background": true
+        "Background": true,
+        "Bloom": false
       }
     },
     "morekb": {
@@ -935,7 +939,8 @@
       "key": 0,
       "settings": {
         "Keybind": 0,
-        "Hold": false
+        "Hold": false,
+        "ESP": true
       }
     },
     "target esp": {
@@ -961,7 +966,7 @@
       }
     },
     "pinggraph": {
-      "toggled": true,
+      "toggled": false,
       "key": 0,
       "settings": {
         "Keybind": 0,
@@ -969,7 +974,8 @@
         "X": 1091.8114143920595,
         "Y": 595.5334987593052,
         "Size": 1.337468982630273,
-        "Glint": true
+        "Glint": true,
+        "Bloom": false
       }
     },
     "criticals": {
@@ -996,11 +1002,12 @@
         "Keybind": 0,
         "Hold": false,
         "Position X": 10.0,
-        "Position Y": 80.0
+        "Position Y": 80.0,
+        "Bloom": false
       }
     },
     "streamer mode": {
-      "toggled": false,
+      "toggled": true,
       "key": 0,
       "settings": {
         "Keybind": 0,
